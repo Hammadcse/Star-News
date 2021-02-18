@@ -6,12 +6,13 @@
     outline: 0;
 	box-sizing: border-box;
 }
-html{
-}
 body{
     font-family: 'Merriweather', serif;
     font-family: 'Roboto', sans-serif;
     text-rendering: optimizeLegibility;
+}
+body,html{
+	scroll-behavior: smooth;
 }
 ul{
     list-style: none;
@@ -1591,4 +1592,10 @@ ul.navigation {
 }
 .fc3-div2 {
 	padding-left: 8px;
+}
+.far.fa-arrow-alt-circle-up {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 30px;
 }
